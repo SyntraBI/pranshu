@@ -7,7 +7,7 @@ import { componentTagger } from "lovable-tagger";
 // - GitHub Pages → /pranshuyadav/
 // - Vercel / Custom Domain → /
 export default defineConfig(({ mode }) => ({
-  base: mode === "github" ? "/pranshuyadav/" : "/",
+  base: mode === "github" ? "/pranshu/" : "/",
 
   server: {
     host: "::",
